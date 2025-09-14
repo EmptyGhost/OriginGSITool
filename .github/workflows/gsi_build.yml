@@ -26,6 +26,7 @@ jobs:
           run: |
                 #sudo apt update && sudo apt install unace unrar zip unzip p7zip-full p7zip-rar sharutils rar uudeview mpack arj cabextract rename liblzma-dev python-pip brotli lz4 protobuf-compiler git gawk
                 git clone https://github.com/defnotegor/OriginGSITool/ && cd OriginGSITool
+                git clone https://github.com/erfanoabdi/Firmware_extractor Tools/Firmware_extractor
                 mkdir -p DownloadedROMs
                 mkdir -p UnpackedROMs
                 mkdir -p UnpackedROMs/system                
